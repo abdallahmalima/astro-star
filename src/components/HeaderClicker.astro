@@ -1,27 +1,15 @@
 <script>
-// Get all the list items that contain links
 const listItems = document.querySelectorAll('.hover-active');
-
-// Initialize the index to keep track of the current link
 let currentIndex = 0;
-
-// Define the function to simulate clicking the links
 const clickNextLink = () => {
-  // Simulate a click on the link
-  listItems[currentIndex].click();
 
-  // Increment the index for the next link
+  listItems[currentIndex].click();
   currentIndex++;
 
-  // If the index is out of bounds, loop back to the first link
   if (currentIndex >= listItems.length) {
     currentIndex = 0;
   }
 };
 
-// Start the interval to simulate clicking every second
 const interval = setInterval(clickNextLink, 5000);
-
-
-
 </script>
