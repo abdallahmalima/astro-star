@@ -1,0 +1,28 @@
+<script>
+// Get all the list items that contain links
+const listItems = document.querySelectorAll('.hover-active');
+
+// Initialize the index to keep track of the current link
+let currentIndex = 0;
+
+// Define the function to simulate clicking the links
+const clickNextLink = () => {
+  // Simulate a click on the link
+  listItems[currentIndex].click();
+
+  // Increment the index for the next link
+  currentIndex++;
+
+  // If the index is out of bounds, loop back to the first link
+  if (currentIndex >= listItems.length) {
+    currentIndex = 0;
+  }
+};
+
+// Start the interval to simulate clicking every second
+const interval = setInterval(clickNextLink, 7000);
+
+// To stop the interval after a certain period of time, you can use:
+// setTimeout(() => clearInterval(interval), 5000); // Stop after 5 seconds
+
+</script>
