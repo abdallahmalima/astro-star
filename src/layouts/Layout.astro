@@ -1,0 +1,330 @@
+--- 
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Safaria - Safari Responsive Themes" name="description">
+    <meta content="Codeopus" name="author">
+    <link href="assets/images/favicon.png" rel="shortcut icon">
+    <title>Safaria</title>
+    <link href="/assets/stylesheets/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/stylesheets/css/font-family.css" rel="stylesheet">
+    <link href="/assets/stylesheets/css/style.css" rel="stylesheet">
+    <link href="/assets/stylesheets/css/global.css" rel="stylesheet">
+    <link href="/assets/javascripts/slick/slick-theme.css" rel="stylesheet">
+    <link href="/assets/javascripts/slick/slick.css" rel="stylesheet">
+    <link href="/assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/stylesheets/css/effect-preloader.css" rel="stylesheet" type="text/css">
+    <script src="/assets/javascripts/preloader/modernizr.custom.js" is:inline></script>
+  </head>
+  <body class="demo-1">
+    <div class="ip-container" id="ip-container">
+      <!--initial header-->
+      <!-- <div class="ip-header" id="header">
+        <div class="ip-loader">
+          <img alt="preloader" class="img-center" src="assets/images/preloader.gif"><svg class="ip-inner" height="60px" viewbox="0 0 80 80" width="60px"><path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"></path><path class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z" id="ip-loader-circle"></path></svg>
+        </div>
+      </div> -->
+      <!--main content-->
+      <div class="ip-main">
+        <div class="search-wrap hide" id="js-search">
+          <div class="content-search">
+            <div class="container">
+              <h2>
+                Search Destination
+              </h2>
+              <div class="form-group">
+                <span class="input input--kohana"><input class="input__field input__field--kohana" type="text"><label class="input__label input__label--kohana"><i class="fa fa-fw fa-search icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">Search</span></label></span>
+              </div>
+            </div>
+            <div class="close-pop">
+              <a href="javascript:void(0);">Close</a>
+            </div>
+          </div>
+        </div>
+        <div class="login-wrap hide" id="js-login">
+          <div class="content-login">
+            <div class="box-login">
+              <div class="box-content-login">
+                <div class="form-group">
+                  <h2>
+                    Log in
+                  </h2>
+                </div>
+                <div class="form-group">
+                  <span class="input input--kohana"><input class="input__field input__field--kohana" type="text"><label class="input__label input__label--kohana"><i class="fa fa-fw fa-user icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">Username</span></label></span>
+                </div>
+                <div class="form-group">
+                  <span class="input input--kohana"><input class="input__field input__field--kohana" type="text"><label class="input__label input__label--kohana"><i class="fa fa-fw fa-envelope icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">Email</span></label></span>
+                </div>
+                <div class="form-group">
+                  <button class="btn button-default button-full btn-pink">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="close-pop">
+            <a href="javascript:void(0);">Close</a>
+          </div>
+        </div>
+        <div class="menu-wrap hide" id="js-menu">
+          <div class="col-sm-12 col-md-9">
+            <div class="w-24 visible-lg">
+              <a class="navbar-brand" href="javascript:void(0);"><img alt="big-logo" class="img-responsive" src="assets/images/big-logo.png"></a>
+            </div>
+            <div class="w-76">
+              <h3 class="nav-menu text-center">
+                Navigator
+              </h3>
+              <div class="row">
+                <div class="col-sm-4">
+                  <ul class="style-menu">
+                    <li>
+                      <a href="/index">Homepage</a>
+                    </li>
+                    <li>
+                      <a href="destination.html">Destination</a>
+                    </li>
+                    <li>
+                      <a href="/about">About Us</a>
+                    </li>
+                    <li>
+                      <a href="/contact">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-4">
+                  <ul class="style-menu">
+                    <li>
+                      <a href="blog.html">Blog Left Sidebar</a>
+                    </li>
+                    <li>
+                      <a href="blog2.html">Blog Right Sidebar</a>
+                    </li>
+                    <li>
+                      <a href="blog-detail.html">Blog Detail Page</a>
+                    </li>
+                    <li>
+                      <a href="gallery.html">Gallery 2 Colomn</a>
+                    </li>
+                    <li>
+                      <a href="gallery2.html">Gallery 3 Colomn</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-4">
+                  <ul class="style-menu">
+                    <li>
+                      <a href="terms.html">Terms Of Use</a>
+                    </li>
+                    <li>
+                      <a href="privacy.html">Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a href="faq.html">FAQ's</a>
+                    </li>
+                    <li>
+                      <a href="404.html">404</a>
+                    </li>
+                    <li>
+                      <a href="500.html">500</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h3 class="nav-menu text-center mar-top-20">
+                Social Media
+              </h3>
+              <div class="socmed-list text-center">
+                <ul>
+                  <li>
+                    <i aria-hidden="true" class="fa fa-facebook"></i>
+                  </li>
+                  <li>
+                    <i aria-hidden="true" class="fa fa-twitter"></i>
+                  </li>
+                  <li>
+                    <i aria-hidden="true" class="fa fa-instagram"></i>
+                  </li>
+                  <li>
+                    <i aria-hidden="true" class="fa fa-pinterest"></i>
+                  </li>
+                  <li>
+                    <i aria-hidden="true" class="fa fa-youtube-play"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 hidden-sm hidden-xs">
+            <h3 class="nav-menu">
+              About Us
+            </h3>
+            <p class="style-us">
+              This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.Aenean sollicitudin, lorem quis bibendum auctor, nisi elit Duis sed odio sit
+            </p>
+          </div>
+          <div class="close-pop">
+            <a href="javascript:void(0);">Close</a>
+          </div>
+        </div>
+        <header>
+          <div id="header-wrap">
+            <nav class="navbar navbar-safaria">
+              <div class="container">
+                <div class="navbar-header">
+                  <a class="navbar-brand" href="javascript:void(0);"><img alt="logo-white" src="assets/images/logo-white.png"></a>
+                  <ul class="navbar-mobile visible-xs">
+                    <li>
+                      <a class="js-search md-size" href="javascript:void(0);"><i aria-hidden="true" class="fa fa-search"></i></a>
+                    </li>
+                    <li>
+                      <a class="js-menu" href="javascript:void(0);">
+                        <div class="burger-icon">
+                          <div class="strip-icon">
+                            &nbsp;
+                          </div>
+                          <div class="strip-icon">
+                            &nbsp;
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="hidden-xs" id="navbar">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li>
+                      <a class="js-search md-size" href="javascript:void(0);"><i aria-hidden="true" class="fa fa-search"></i></a>
+                    </li>
+                    <li>
+                      <a class="right-border js-login" href="javascript:void(0);">Login</a>
+                    </li>
+                    <li>
+                      <a class="js-menu" href="javascript:void(0);">Menu
+                        <div class="burger-icon">
+                          <div class="strip-icon">
+                            &nbsp;
+                          </div>
+                          <div class="strip-icon">
+                            &nbsp;
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <!--/.nav-collapse-->
+              </div>
+            </nav>
+          </div>
+        </header>
+        <slot/>
+        <footer>
+          <div class="wrap-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-4">
+                  <div class="text-left">
+                    <h2>
+                      About Us
+                    </h2>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                    </p>
+                    <div class="socmed-list">
+                      <ul>
+                        <li>
+                          <i aria-hidden="true" class="fa fa-facebook"></i>
+                        </li>
+                        <li>
+                          <i aria-hidden="true" class="fa fa-twitter"></i>
+                        </li>
+                        <li>
+                          <i aria-hidden="true" class="fa fa-instagram"></i>
+                        </li>
+                        <li>
+                          <i aria-hidden="true" class="fa fa-pinterest"></i>
+                        </li>
+                        <li>
+                          <i aria-hidden="true" class="fa fa-youtube-play"></i>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="text-center">
+                    <h2>
+                      Newsletter
+                    </h2>
+                    <div class="form-group">
+                      <span class="input input--kohana"><input class="input__field input__field--kohana" type="text"><label class="input__label input__label--kohana"><i class="fa fa-fw fa-envelope icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">Your Email</span></label></span>
+                    </div>
+                    <h2>
+                      Latest Photo
+                    </h2>
+                    <ul class="latest-photo">
+                      <li>
+                        <a href="gallery.html"><img alt="gallery-1" class="img-100" src="assets/images/point1.jpg"></a>
+                      </li>
+                      <li>
+                        <a href="gallery.html"><img alt="gallery-2" class="img-100" src="assets/images/point2.jpg"></a>
+                      </li>
+                      <li>
+                        <a href="gallery.html"><img alt="gallery-3" class="img-100" src="assets/images/point3.jpg"></a>
+                      </li>
+                      <li>
+                        <a href="gallery.html"><img alt="gallery-4" class="img-100" src="assets/images/point5.jpg"></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                  <div class="text-right">
+                    <h2>
+                      Contact
+                    </h2>
+                    <p>
+                      Safaria Company Address<br>Jl Soekarno Street 077 SP 70A, Cimahi<br><br>+ 901 901 877 89<br>mail@safaria.com
+                    </p>
+                    <div class="logo-footer">
+                      <img alt="big-logo" src="assets/images/big-logo.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row mar-top-40">
+                <div class="col-sm-6">
+                  <p class="text-left">
+                    Terms of Condition  | Privacy Policy  | FAQ
+                  </p>
+                </div>
+                <div class="col-sm-6">
+                  <p class="text-right">
+                    Copyright Codeopus All Right Reserve 2016
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="/assets/javascripts/jquery.js" is:inline></script>
+    <script src="/assets/javascripts/bootstrap.js" is:inline></script>
+    <script src="/assets/javascripts/custom.js" is:inline></script>
+    <script src="/assets/javascripts/slick/slick.min.js" is:inline></script>
+    <script src="/assets/javascripts/preloader/classie.js" is:inline></script>
+    <script src="/assets/javascripts/preloader/pathLoader.js" is:inline></script>
+    <script src="/assets/javascripts/preloader/main.js" is:inline></script>
+  </body>
+</html>

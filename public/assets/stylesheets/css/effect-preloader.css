@@ -1,0 +1,121 @@
+/*
+// =============================================== 
+// Preloader Css Custom
+// =============================================== 
+*/
+.ip-header {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  min-height: 460px;
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+.ip-logo,
+.ip-loader {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  cursor: default;
+  pointer-events: none;
+}
+.ip-loader {
+  bottom: 30%;
+}
+.ip-header .ip-inner {
+  display: block;
+  margin: 0 auto;
+}
+.ip-loader img {
+  width: 100px;
+}
+.ip-header .ip-loader svg path {
+  fill: none;
+  stroke-width: 6;
+}
+.ip-header .ip-loader svg path.ip-loader-circlebg {
+  stroke: #ddd;
+  background: pink;
+  display: none;
+}
+.ip-header .ip-loader svg path.ip-loader-circle {
+  -webkit-transition: stroke-dashoffset 0.2s;
+  transition: stroke-dashoffset 0.2s;
+  stroke: #f88c91;
+  display: none;
+}
+/* Animations */
+/* Initial animation of header elements */
+.loading .ip-logo,
+.loading .ip-loader {
+  opacity: 1;
+}
+.loading .ip-loader {
+  -webkit-animation: animInitialLoader 1s cubic-bezier(0.7, 0, 0.3, 1) both;
+  animation: animInitialLoader 1s cubic-bezier(0.7, 0, 0.3, 1) both;
+}
+@-webkit-keyframes animInitialLoader {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.5, 0.5, 1);
+  }
+}
+@keyframes animInitialLoader {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.5, 0.5, 1);
+    transform: scale3d(0.5, 0.5, 1);
+  }
+}
+/* Header elements when loading finishes */
+.loaded .ip-loader {
+  -webkit-animation: animLoadedLoader 0.5s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+  animation: animLoadedLoader 0.5s cubic-bezier(0.7, 0, 0.3, 1) forwards;
+}
+@-webkit-keyframes animLoadedLoader {
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0) scale3d(0.3, 0.3, 1);
+  }
+}
+@keyframes animLoadedLoader {
+  to {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0) scale3d(0.3, 0.3, 1);
+    transform: translate3d(0, -100%, 0) scale3d(0.3, 0.3, 1);
+  }
+}
+/* Change the color of the logo */
+.loaded .ip-logo svg path {
+  -webkit-transition: all 0.5s ease 0.3s;
+  transition: all 0.5s ease 0.3s;
+  fill: #fff;
+}
+/* Header animation when loading finishes */
+.loaded .ip-header {
+  -webkit-animation: animLoadedHeader 1s;
+  animation: animLoadedHeader 1s;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+}
+@-webkit-keyframes animLoadedHeader {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes animLoadedHeader {
+  to {
+    opacity: 0;
+  }
+}
+/* Change layout class for header */
+.layout-switch .ip-header {
+  position: absolute;
+  opacity: 0;
+  background: transparent;
+  z-index: -1;
+}

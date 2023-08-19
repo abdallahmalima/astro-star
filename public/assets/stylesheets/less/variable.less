@@ -1,0 +1,269 @@
+ 
+/*
+// =============================================== 
+// Table Of Content
+// =============================================== 
+
+// 1. Color Scheme
+// 2. Responsive Style
+// 3. Normal Heading
+// 4. Transition Effect
+// 5. Border-Radius
+// 6. Margin and Padding
+// 7. Image Center
+// 8. Font Rotate
+ 
+// =============================================== 
+// 1. Color Scheme
+// =============================================== 
+*/
+@white      : #FFFFFF;
+
+@dgrey      : #939C9F;
+@grey       : #F5F5F5;
+@lgrey      : #F8F8F8;
+
+@brown      : #10090A;
+@purple     : #7570FC;
+@pink       : #FF508E;
+@blue       : #11A8C5;
+@lblue      : #07D0EE;
+@green      : #04AD23;
+@orange     : #FF9C00;
+@black      : #22263B;
+
+// =============================================== 
+// 2. Responsive Style
+// =============================================== 
+
+
+@screen-sm-min            : 768px;
+@screen-md-min            : 992px;
+
+@screen-xs-max            : 767px;
+@screen-sm-max            : 991px;
+
+@bannerHeight             : 800px;
+
+ 
+// =============================================== 
+// 3. Normal Heading
+// =============================================== 
+
+
+.normal-heading {
+	margin: 0 auto;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ 
+// =============================================== 
+// 4. Transition Effect
+// =============================================== 
+
+
+.transition(@val-effect) {
+  -webkit-transition: all @val-effect ease-out;
+  -moz-transition: all @val-effect ease-out;
+  -ms-transition: all @val-effect ease-out;
+  -o-transition: all @val-effect ease-out;
+  transition: all @val-effect ease-out;
+}
+
+ 
+// =============================================== 
+// 5. Border-Radius
+// =============================================== 
+
+
+.round(@val-round) {
+  -webkit-border-radius: @val-round; 
+  -moz-border-radius: @val-round; 
+  border-radius: @val-round; 
+}
+
+.round-top(@val-round) {
+  -webkit-border-top-left-radius: @val-round;
+  -webkit-border-top-right-radius: @val-round; 
+  -moz-border-top-left-radius: @val-round; 
+  -moz-border-top-right-radius: @val-round;
+  border-top-left-radius: @val-round;
+  border-top-right-radius: @val-round;
+}
+
+.round-bottom(@val-round) {
+  -webkit-border-bottom-left-radius: @val-round;
+  -webkit-border-bottom-right-radius: @val-round; 
+  -moz-border-bottom-left-radius: @val-round; 
+  -moz-border-bottom-right-radius: @val-round;
+  border-bottom-left-radius: @val-round;
+  border-bottom-right-radius: @val-round;
+}
+
+ 
+// =============================================== 
+// 6. Margin and Padding
+// =============================================== 
+
+
+.mar-top-10 {
+	margin-top: 10px;
+}
+
+.mar-top-15 {
+  margin-top: 15px !important;
+}
+
+.mar-top-20 {
+  margin-top: 20px;
+}
+
+.mar-top-40 {
+  margin-top: 40px;
+}
+
+.mar-right-10 {
+  margin-right: 10px;
+}
+
+.mar-right-15 {
+  margin-right: 15px;
+}
+
+.mar-left-10 {
+  margin-left: 10px;
+}
+
+.mar-left-15 {
+  margin-left: 15px;
+}
+
+.mar-btm-0 {
+	margin-bottom: 0 ;
+}
+
+.mar-btm-0i {
+  margin-bottom: 0px !important;
+}
+
+.mar-btm-10 {
+	margin-bottom: 10px;
+}
+
+.mar-btm-20 {
+  margin-bottom: 20px;
+}
+
+.mar-btm-60 {
+  margin-bottom: 60px;
+}
+
+.mar-right-25 {
+  margin-right: 25px;
+}
+
+.mar-left-25 {
+  margin-left: 25px;
+}
+
+.mar-top-200 {
+  margin-top: 200px;
+}
+
+.mar-top-450 {
+  margin-top: 450px;
+}
+
+.no-mar-right {
+  margin-right: 0 !important;
+}
+
+.no-mar-left {
+  margin-left: 0 !important;
+}
+
+.no-pad-right {
+  padding-right: 15px;
+  @media(min-width: @screen-sm-min){
+    padding-right: 0;
+  }
+}
+
+.no-pad-left {
+  padding-left: 15px;
+  @media(min-width: @screen-sm-min){
+    padding-left: 0;
+  }
+}
+
+.pad-right-75 {
+  padding-right: 7.5px;
+  @media(max-width: @screen-sm-min){
+    padding-right: 15px;
+  }
+}
+
+.pad-left-75 {
+  padding-left: 7.5px;
+  @media(max-width: @screen-sm-min){
+    padding-left: 15px;
+  }
+}
+
+.pad-top-10 {
+  padding-top: 10px;
+}
+
+.pad-btm-10 {
+  padding-bottom: 10px;
+}
+
+.pad-btm-15 {
+  padding-bottom: 15px;
+}
+
+ 
+// =============================================== 
+// 7. Image Center
+// =============================================== 
+
+
+.img-center {
+  display: block;
+  margin: 0 auto;
+}
+
+.img-bow-center-res {
+  @media(max-width: @screen-sm-min){
+    display: block;
+    margin: 0 auto; 
+  }
+}
+
+.img-full-size {
+  width: 100%;
+}
+
+// =============================================== 
+// 8. Font Rotate
+// =============================================== 
+
+.rotate(@val-rotate) {
+
+  /* Safari */
+  -webkit-transform: rotate(@val-rotate);
+
+  /* Firefox */
+  -moz-transform: rotate(@val-rotate);
+
+  /* IE */
+  -ms-transform: rotate(@val-rotate);
+
+  /* Opera */
+  -o-transform: rotate(@val-rotate);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}

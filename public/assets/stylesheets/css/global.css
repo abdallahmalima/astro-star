@@ -1,0 +1,605 @@
+/*
+// =============================================== 
+// Table Of Content
+// =============================================== 
+
+// 1. Global Content
+// 2. Fontsize Img and position Custom
+// 3. Button Custom
+// 4. Animation FadeIn Content
+// 5. Input type Custom
+
+// =============================================== 
+// 1. Global Content
+// ===============================================
+*/
+/*
+// =============================================== 
+// Table Of Content
+// =============================================== 
+
+// 1. Color Scheme
+// 2. Responsive Style
+// 3. Normal Heading
+// 4. Transition Effect
+// 5. Border-Radius
+// 6. Margin and Padding
+// 7. Image Center
+// 8. Font Rotate
+ 
+// =============================================== 
+// 1. Color Scheme
+// =============================================== 
+*/
+.normal-heading {
+  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.mar-top-10 {
+  margin-top: 10px;
+}
+.mar-top-15 {
+  margin-top: 15px !important;
+}
+.mar-top-20 {
+  margin-top: 20px;
+}
+.mar-top-40 {
+  margin-top: 40px;
+}
+.mar-right-10 {
+  margin-right: 10px;
+}
+.mar-right-15 {
+  margin-right: 15px;
+}
+.mar-left-10 {
+  margin-left: 10px;
+}
+.mar-left-15 {
+  margin-left: 15px;
+}
+.mar-btm-0 {
+  margin-bottom: 0 ;
+}
+.mar-btm-0i {
+  margin-bottom: 0px !important;
+}
+.mar-btm-10 {
+  margin-bottom: 10px;
+}
+.mar-btm-20 {
+  margin-bottom: 20px;
+}
+.mar-btm-60 {
+  margin-bottom: 60px;
+}
+.mar-right-25 {
+  margin-right: 25px;
+}
+.mar-left-25 {
+  margin-left: 25px;
+}
+.mar-top-200 {
+  margin-top: 200px;
+}
+.mar-top-450 {
+  margin-top: 450px;
+}
+.no-mar-right {
+  margin-right: 0 !important;
+}
+.no-mar-left {
+  margin-left: 0 !important;
+}
+.no-pad-right {
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  .no-pad-right {
+    padding-right: 0;
+  }
+}
+.no-pad-left {
+  padding-left: 15px;
+}
+@media (min-width: 768px) {
+  .no-pad-left {
+    padding-left: 0;
+  }
+}
+.pad-right-75 {
+  padding-right: 7.5px;
+}
+@media (max-width: 768px) {
+  .pad-right-75 {
+    padding-right: 15px;
+  }
+}
+.pad-left-75 {
+  padding-left: 7.5px;
+}
+@media (max-width: 768px) {
+  .pad-left-75 {
+    padding-left: 15px;
+  }
+}
+.pad-top-10 {
+  padding-top: 10px;
+}
+.pad-btm-10 {
+  padding-bottom: 10px;
+}
+.pad-btm-15 {
+  padding-bottom: 15px;
+}
+.img-center {
+  display: block;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .img-bow-center-res {
+    display: block;
+    margin: 0 auto;
+  }
+}
+.img-full-size {
+  width: 100%;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #10090a;
+  color: #ffffff;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+textarea:hover,
+button:hover,
+.btn:hover,
+textarea:focus,
+button:focus,
+.btn:focus {
+  box-shadow: none;
+  outline-color: transparent;
+  outline-offset: 0;
+  outline-width: 0;
+}
+ul.round-template {
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+ul.round-template li.active .icon-wrap {
+  background-color: #ff9c00;
+  border: solid 2px #ff9c00;
+}
+@media (max-width: 768px) {
+  ul.round-template {
+    text-align: center;
+  }
+}
+ul.round-template li {
+  display: inline-block;
+}
+ul.round-template li .icon-wrap {
+  width: 50px;
+  height: 50px;
+  float: left;
+  border: solid 2px #ffffff;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+ul.round-template li .icon-wrap:hover {
+  background-color: #ff9c00;
+  border: solid 2px #ff9c00;
+}
+@media (max-width: 1199px) {
+  ul.round-template li .icon-wrap {
+    width: 40px;
+    height: 40px;
+  }
+}
+ul.round-template li .icon-wrap i {
+  text-align: center;
+  display: block;
+  line-height: 47px;
+}
+@media (max-width: 1199px) {
+  ul.round-template li .icon-wrap i {
+    line-height: 37px;
+  }
+}
+ul.round-template li .icon-wrap i.md-size {
+  font-size: 20px;
+}
+@media (max-width: 1199px) {
+  ul.round-template li .icon-wrap i.md-size {
+    font-size: 15px;
+  }
+}
+ul.round-template.blue-round li .icon-wrap {
+  border-color: #07d0ee;
+  background-color: #07d0ee;
+  color: #ffffff;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+ul.round-template.blue-round li .icon-wrap:hover {
+  opacity: 0.5;
+}
+ul.round-template.green-round li .icon-wrap {
+  border-color: #04ad23;
+  background-color: #04ad23;
+  color: #ffffff;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+ul.round-template.green-round li .icon-wrap:hover {
+  opacity: 0.5;
+}
+a {
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+a:hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+.br {
+  display: block;
+  height: 15px;
+}
+img.img-100 {
+  width: 100%;
+}
+img.img-30 {
+  width: 30%;
+}
+.vid-100 {
+  width: 100%;
+  height: 100%;
+}
+/*
+// =============================================== 
+// 2. Fontsize Img and position Custom
+// ===============================================
+*/
+.md-size {
+  font-size: 20px !important;
+}
+.bold-font {
+  font-weight: 600;
+}
+.pull-top-100 {
+  padding-top: 100px;
+}
+.right-border {
+  border-right: solid 1px #ffffff;
+}
+.img-full {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+textarea.form-full {
+  width: 100%;
+  min-height: 200px;
+}
+.white-link {
+  color: #ffffff;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  display: block;
+}
+.white-link:hover {
+  color: #ffffff;
+  opacity: 0.5;
+  text-decoration: none;
+}
+/*
+// =============================================== 
+// 3. Button Custom
+// ===============================================
+*/
+.button-full {
+  width: 100%;
+}
+.button-default {
+  padding: 20px 80px;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+}
+.btn-20 {
+  padding: 20px;
+}
+.btn-pink {
+  background-color: #ff367e;
+  color: white;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.btn-pink:hover {
+  color: white;
+  background-color: #ff035d;
+}
+.btn-purple {
+  background-color: #5d57fb;
+  color: white;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.btn-purple:hover {
+  color: white;
+  background-color: #453efb;
+}
+.btn-green {
+  background-color: #04ad23;
+  color: white;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.btn-green:hover {
+  color: white;
+  background-color: #03941e;
+}
+.btn-orange {
+  background-color: #e68c00;
+  color: white;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.btn-orange:hover {
+  color: white;
+  background-color: #cc7d00;
+}
+.btn-blue {
+  background-color: #07d0ee;
+  color: white;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.btn-blue:hover {
+  color: white;
+  background-color: #06bad5;
+}
+/*
+// =============================================== 
+// 4. Animation FadeIn Content
+// ===============================================
+*/
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+/*
+// =============================================== 
+// 5. Input type Custom
+// ===============================================
+
+/* Kohana */
+.input {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+}
+.input__field {
+  position: relative;
+  display: block;
+  float: right;
+  padding: 0.8em;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  background: #f0f0f0;
+  color: #aaa;
+  font-weight: 400;
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-appearance: none;
+  /* for box shadows to show on iOS */
+}
+.input__field:focus {
+  outline: none;
+}
+.input__label {
+  display: inline-block;
+  float: right;
+  padding: 0 1em;
+  width: 40%;
+  color: #696969;
+  font-weight: bold;
+  font-size: 70.25%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.input__label-content {
+  position: relative;
+  display: block;
+  padding: 1.6em 0;
+  width: 100%;
+}
+.graphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  fill: none;
+}
+.icon {
+  color: #ddd;
+  font-size: 150%;
+}
+.input--kohana {
+  overflow: hidden;
+  background: black;
+}
+.input--kohana i {
+  font-size: 20px;
+}
+.input--white {
+  background-color: whitesmoke;
+  color: #10090a;
+}
+.input--white .icon--kohana,
+.input--white .input__label--kohana {
+  color: #22263b;
+}
+.input__field--kohana {
+  width: 100%;
+  background: transparent;
+  padding-left: 2.75em;
+  color: #6a7989;
+  font-size: 20px;
+}
+.input__label--kohana {
+  position: absolute;
+  width: 100%;
+  text-align: left;
+  pointer-events: none;
+  color: #D2D2D2;
+  letter-spacing: 0;
+  font-weight: 300;
+  font-size: 14px;
+  padding-left: 15px;
+  margin-bottom: 0;
+  height: 100%;
+  top: -2px;
+}
+.input__label-content--kohana {
+  display: inline-block;
+  width: auto;
+  -webkit-transform: translate3d(-1.75em, 0, 0);
+  transform: translate3d(-1.75em, 0, 0);
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+  transition: transform 0.3s, opacity 0.3s;
+}
+.icon--kohana {
+  display: inline-block;
+  margin-top: 0.9em;
+  -webkit-transform: translate3d(-2em, 0, 0);
+  transform: translate3d(-2em, 0, 0);
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+}
+.input__field--kohana:focus + .input__label--kohana .input__label-content--kohana,
+.input--filled .input__label-content--kohana {
+  opacity: 0;
+  -webkit-transform: translate3d(100px, 0, 0);
+  transform: translate3d(100px, 0, 0);
+}
+.input__label-content--kohana,
+.icon--kohana,
+.input__field--kohana:focus + .input__label--kohana .input__label-content--kohana,
+.input--filled .input__label-content--kohana {
+  -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+.input__field--kohana:focus + .input__label--kohana .icon--kohana,
+.input--filled .icon--kohana {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.burger-icon {
+  float: right;
+  width: 25px;
+  margin-left: 10px;
+}
+.burger-icon .strip-icon {
+  height: 4px;
+  background-color: white;
+  margin: 5px 0;
+  border-radius: 10px;
+}
