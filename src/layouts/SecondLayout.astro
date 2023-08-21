@@ -1,4 +1,5 @@
 ---
+import ResourceLayout from '../layouts/ResourceLayout.astro';
 interface Props {
 	title: string;
 }
@@ -6,26 +7,7 @@ interface Props {
 const { title } = Astro.props;
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Booking - Safari Responsive Themes" name="description">
-    <meta content="Codeopus" name="author">
-    <link href="assets/images/favicon.png" rel="shortcut icon">
-    <title>Booking</title>
-    <link href="/assets/stylesheets/css/bootstrap.css" rel="stylesheet">
-    <link href="/assets/stylesheets/css/font-family.css" rel="stylesheet">
-    <link href="/assets/stylesheets/css/style.css" rel="stylesheet">
-    <link href="/assets/stylesheets/css/global.css" rel="stylesheet">
-    <link href="/assets/javascripts/slick/slick-theme.css" rel="stylesheet">
-    <link href="/assets/javascripts/slick/slick.css" rel="stylesheet">
-    <link href="/assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/assets/stylesheets/css/effect-preloader.css" rel="stylesheet" type="text/css">
-    <script src="/assets/javascripts/preloader/modernizr.custom.js" is:inline></script>
-  </head>
-  <body class="demo-1">
+  <ResourceLayout title="Welcome to Astro.">
     <div class="ip-container" id="ip-container">
       <!--initial header-->
       <!--main content-->
@@ -278,9 +260,4 @@ const { title } = Astro.props;
         </footer>
       </div>
     </div>
-    <script src="/assets/javascripts/jquery.js" is:inline></script>
-    <script src="/assets/javascripts/bootstrap.js" is:inline></script>
-    <script src="/assets/javascripts/custom.js" is:inline></script>
-    <script src="/assets/javascripts/slick/slick.min.js" is:inline></script>
-  </body>
-</html>
+    </ResourceLayout>
