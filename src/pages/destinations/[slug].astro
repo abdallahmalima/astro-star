@@ -17,8 +17,9 @@ const destination=DESTINATIONS.find((des)=>(des.slug==slug))
               <div class="top-destination">
                 <div class="img-relative">
                   
-                  <div class="animated fadeIn des-1">
-                    <img alt="des-1-lg" class="img-responsive img-100" src="/assets/images/des-1-lg.jpg">
+                  {destination?.header_images.map((header_image,index)=>(
+                    <div class={`animated fadeIn des-${index+1} ${(index==0)?'':'hide'}`}>
+                    <img alt="des-1-lg" class="img-responsive img-100" src={header_image.lg}>
                     <div class="text-destination">
                       <div class="text-table">
                         <div class="text-cell">
@@ -31,67 +32,8 @@ const destination=DESTINATIONS.find((des)=>(des.slug==slug))
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="animated fadeIn des-2 hide">
-                    <img alt="des-2-lg" class="img-responsive img-100" src="/assets/images/des-2-lg.jpg">
-                    <div class="text-destination">
-                      <div class="text-table">
-                        <div class="text-cell">
-                          <h1>
-                            {destination?.title}
-                          </h1>
-                          <p>
-                            Zanzibar is without doubt one of Africa's finest safari destinations
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="animated fadeIn des-3 hide">
-                    <img alt="des-3-lg" class="img-responsive img-100" src="/assets/images/des-3-lg.jpg">
-                    <div class="text-destination">
-                      <div class="text-table">
-                        <div class="text-cell">
-                          <h1>
-                            {destination?.title}
-                          </h1>
-                          <p>
-                            Zanzibar is without doubt one of Africa's finest safari destinations
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="animated fadeIn des-4 hide">
-                    <img alt="des-4-lg" class="img-responsive img-100" src="/assets/images/des-4-lg.jpg">
-                    <div class="text-destination">
-                      <div class="text-table">
-                        <div class="text-cell">
-                          <h1>
-                            {destination?.title}
-                          </h1>
-                          <p>
-                            Zanzibar is without doubt one of Africa's finest safari destinations
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="animated fadeIn des-5 hide">
-                    <img alt="des-5-lg" class="img-responsive img-100" src="/assets/images/des-5-lg.jpg">
-                    <div class="text-destination">
-                      <div class="text-table">
-                        <div class="text-cell">
-                          <h1>
-                            {destination?.title}
-                          </h1>
-                          <p>
-                            Zanzibar is without doubt one of Africa's finest safari destinations
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  </div>))}
+                  
                   <div class="wrap-info-destination">
                     <div class="container">
                       <ul class="left-icon-destination">
@@ -126,11 +68,12 @@ const destination=DESTINATIONS.find((des)=>(des.slug==slug))
                   <div class="container">
                     <div class="point-slider-image-destination auto-position">
                       <ul>
-                        <li class="active active-5">
+                        {destination?.header_images.map((header_image,index)=>(
+                          <li class={`active active-${index+5}`}>
                           <div class="hover-active">
                             &nbsp; 
                           </div>
-                          <div class="span-active act-5">
+                          <div class={`span-active act-${index+5} ${index==0?'':'hide'}`}>
                             <div class="svg-table">
                               <div class="svg-cell">
                                 <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
@@ -138,54 +81,8 @@ const destination=DESTINATIONS.find((des)=>(des.slug==slug))
                             </div>
                           </div>
                         </li>
-                        <li class="active active-6">
-                          <div class="hover-active">
-                            &nbsp; 
-                          </div>
-                          <div class="span-active act-6 hide">
-                            <div class="svg-table">
-                              <div class="svg-cell">
-                                <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="active active-7">
-                          <div class="hover-active">
-                            &nbsp; 
-                          </div>
-                          <div class="span-active act-7 hide">
-                            <div class="svg-table">
-                              <div class="svg-cell">
-                                <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="active active-8">
-                          <div class="hover-active">
-                            &nbsp; 
-                          </div>
-                          <div class="span-active act-8 hide">
-                            <div class="svg-table">
-                              <div class="svg-cell">
-                                <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="active active-9">
-                          <div class="hover-active">
-                            &nbsp; 
-                          </div>
-                          <div class="span-active act-9 hide">
-                            <div class="svg-table">
-                              <div class="svg-cell">
-                                <svg class="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52"><circle class="checkmark__circle" cx="26" cy="26" r="25" fill="none"/><path class="checkmark__check" fill="none" d="M14.1 27.2l7.1 7.2 16.7-16.8"/></svg>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
+                  ))}
+                       
                         <li>
                           <div class="weather-wrap orange-version">
                             <div class="weather-left">
@@ -315,87 +212,16 @@ const destination=DESTINATIONS.find((des)=>(des.slug==slug))
                         <h3>
                             {destination?.title} Highlights
                         </h3>
-                           
-                         <ul class="box-img">
-                          <li>
-                            <div class="span-img">
-                              <img alt="high-1" class="img-full img-100" src="/assets/images/high-1.jpg">
-                              <div class="wrap-text-high">
-                                <div class="top-section-high">
-                                  Riding Horse Safari
-                                </div>
-                                <div class="bottom-section-high">
-                                  <i aria-hidden="true" class="fa fa-long-arrow-right md-size"></i>
-                                </div>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="span-img">
-                              <img alt="high-2" class="img-full img-100" src="/assets/images/high-2.jpg">
-                              <div class="wrap-text-high">
-                                <div class="top-section-high">
-                                  Endemic Animal
-                                </div>
-                                <div class="bottom-section-high">
-                                  <i aria-hidden="true" class="fa fa-long-arrow-right md-size"></i>
-                                </div>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="span-img">
-                              <img alt="high-3" class="img-full img-100" src="/assets/images/high-3.jpg">
-                              <div class="wrap-text-high">
-                                <div class="top-section-high">
-                                  Riding Elephant Safari
-                                </div>
-                                <div class="bottom-section-high">
-                                  <i aria-hidden="true" class="fa fa-long-arrow-right md-size"></i>
-                                </div>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="span-img">
-                              <img alt="high-4" class="img-full img-100" src="/assets/images/high-4.jpg">
-                              <div class="wrap-text-high">
-                                <div class="top-section-high">
-                                  Wildebeest Migration 
-                                </div>
-                                <div class="bottom-section-high">
-                                  <i aria-hidden="true" class="fa fa-long-arrow-right md-size"></i>
-                                </div>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="span-img">
-                              <img alt="high-5" class="img-full img-100" src="/assets/images/high-5.jpg">
-                              <div class="wrap-text-high">
-                                <div class="top-section-high">
-                                  Children Safari Play
-                                </div>
-                                <div class="bottom-section-high">
-                                  <i aria-hidden="true" class="fa fa-long-arrow-right md-size"></i>
-                                </div>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="span-img">
-                              <img alt="high-6" class="img-full img-100" src="/assets/images/high-6.jpg">
-                              <div class="wrap-text-high">
-                                <div class="top-section-high">
-                                  Luxury Safari On Zanzibar
-                                </div>
-                                <div class="bottom-section-high">
-                                  <i aria-hidden="true" class="fa fa-long-arrow-right md-size"></i>
-                                </div>
-                              </div>
-                            </div>
-                          </li>
-                        </ul> 
+                        <div style="position: relative; padding-bottom: 56.25%; /* 16:9 aspect ratio */ height: 0;">
+  <iframe
+    allow="autoplay; fullscreen"
+    src={destination?.video}
+    allowfullscreen=""
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+    title={`${destination?.title}: The Adventure | Free Documentary`}
+  ></iframe>
+</div>
+
                       </div>
                       <div class="content-contact-me hidden-xs hidden-sm">
                         {destination?.p2.map((p)=>(

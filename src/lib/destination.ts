@@ -5,7 +5,8 @@
     slug:"ngorongoro-creater",
     title:"NGORONGORO CRATER",
     image:"assets/images/ngorongoro.jpg",
-    Header_images:[
+    video:"https://www.youtube-nocookie.com/embed/45eddk-pMuY?version=3&amp;enablejsapi=1&amp;html5=1&amp;hd=1&amp;wmode=opaque&amp;showinfo=0&amp;rel=0&amp;origin=https://www.bookingstanzaniasafaris.com;&amp;controls=0&amp;playsinline=1&amp;start=1110&amp;end=1145",
+    header_images:[
         {lg:"/assets/images/des-1-lg.jpg",sm:"/assets/images/des-1.jpg"},
         {lg:"/assets/images/des-2-lg.jpg",sm:"/assets/images/des-2.jpg"},
         {lg:"/assets/images/des-3-lg.jpg",sm:"/assets/images/des-3.jpg"},
@@ -28,6 +29,14 @@
     slug:"serengeti-national-park",
     title:"SERENGETI NATIONAL PARK",
     image:"assets/images/serengeti.jpg",
+    video:"https://www.youtube-nocookie.com/embed/OH6tv9y-iaE?version=3&amp;enablejsapi=1&amp;html5=1&amp;hd=1&amp;wmode=opaque&amp;showinfo=0&amp;rel=0&amp;origin=https://www.bookingstanzaniasafaris.com;&amp;controls=0&amp;playsinline=1&amp;start=1110&amp;end=1145",
+    header_images:[
+        {lg:"/assets/images/des-1-lg.jpg",sm:"/assets/images/des-1.jpg"},
+        {lg:"/assets/images/des-2-lg.jpg",sm:"/assets/images/des-2.jpg"},
+        {lg:"/assets/images/des-3-lg.jpg",sm:"/assets/images/des-3.jpg"},
+        {lg:"/assets/images/des-4-lg.jpg",sm:"/assets/images/des-4.jpg"},
+        {lg:"/assets/images/des-5-lg.jpg",sm:"/assets/images/des-5.jpg"},
+    ],
     p1:[
         "Serengeti National Park is undoubtedly the best-known wildlife sanctuary in the world, unequalled for its natural beauty and scientific value, it has the greatest concentration of plains game in Africa",
         "The Serengeti National Park in Tanzania was established in 1952. It is home to the greatest wildlife spectacle on earth - the great migration of wildebeest and zebra. The resident population of lion, cheetah, elephant, giraffe, and birds is also impressive. There’s a wide variety of accommodation available, from luxury lodges to mobile camps. The park covers 5,700 sq miles, (14,763 sq km), it’s larger than Connecticut, with at most a couple hundred vehicles driving around.",
@@ -47,6 +56,14 @@
     slug:"mount-kilimanjaro",
     title:"MOUNT KILIMANJARO",
     image:"assets/images/kilimanjaro.jpg",
+    video:"https://www.youtube-nocookie.com/embed/sKafQbM0J_8?version=3&amp;enablejsapi=1&amp;html5=1&amp;hd=1&amp;wmode=opaque&amp;showinfo=0&amp;rel=0&amp;origin=https://www.bookingstanzaniasafaris.com;&amp;controls=0&amp;playsinline=1&amp;start=1110&amp;end=1145",
+    header_images:[
+        {lg:"/assets/images/des-1-lg.jpg",sm:"/assets/images/des-1.jpg"},
+        {lg:"/assets/images/des-2-lg.jpg",sm:"/assets/images/des-2.jpg"},
+        {lg:"/assets/images/des-3-lg.jpg",sm:"/assets/images/des-3.jpg"},
+        {lg:"/assets/images/des-4-lg.jpg",sm:"/assets/images/des-4.jpg"},
+        {lg:"/assets/images/des-5-lg.jpg",sm:"/assets/images/des-5.jpg"},
+    ],
     p1:[
         "At 5896m Mt Kilimanjaro, Africa's highest mountain and one of the continent's magnificent sights, It has three main volcanic peaks, Kibo, Mawenzi, and Shira. The name itself \"Kilimanjaro\" is a mystery wreathed in clouds. It might mean Mountain of Light, Mountain of Greatness or Mountain of Caravans.",
         "Above the gently rolling hills and plateaux of northern Tanzania rises the snowy peak of Mt. Kilimanjaro, it’s slopes and glaciers shimmering above the rising clouds. Kilimanjaro is located near the town of Moshi and is a protected area, carefully regulated for climbers to enjoy without leaving a trace of their presence. The mountain’s ecosystems are as strikingly beautiful as they are varied and diverse. On the lowland slopes, much of the mountain is farmland, with coffee, banana, cassava, and maize crops grown for subsistence and cash sale. A few larger coffee farms still exist on the lower slopes, but much of the area outside the national park has been subdivided into small plots. Once inside the park, thick lowland forest covers the lower altitudes and breaks into alpine meadows once the air begins to thin. Near the peak, the landscape is harsh and barren, with rocks and ice the predominant features above a breathtaking African view.",
@@ -66,6 +83,14 @@
     slug:"zanzibar-island",
     title:"ZANZIBAR ISLAND",
     image:"assets/images/zanzibar.jpg",
+    video:"https://www.youtube-nocookie.com/embed/YUqWjDRtH0U?version=3&enablejsapi=1&html5=1&hd=1&wmode=opaque&showinfo=0&rel=0&origin=https://www.bookingstanzaniasafaris.com;&controls=0&playsinline=1&start=0&end=149",
+    header_images:[
+        {lg:"/assets/images/des-1-lg.jpg",sm:"/assets/images/des-1.jpg"},
+        {lg:"/assets/images/des-2-lg.jpg",sm:"/assets/images/des-2.jpg"},
+        {lg:"/assets/images/des-3-lg.jpg",sm:"/assets/images/des-3.jpg"},
+        {lg:"/assets/images/des-4-lg.jpg",sm:"/assets/images/des-4.jpg"},
+        {lg:"/assets/images/des-5-lg.jpg",sm:"/assets/images/des-5.jpg"},
+    ],
     p1:[
         'Known as the Spice Island, the beautiful island of Zanzibar on Africa’s east coast is bursting with culture and history, seemingly at odds with its idyllic geography of white-sand beaches with palms swaying lazily in the sea breeze. Together this makes Zanzibar a fabulous place to explore as well as a dream to relax and unwind.',
         'Zanzibar is the semi-autonomous part of Tanzania in East Africa. It is composed of the Zanzibar Archipelago in the Indian Ocean, 25–50 kilometres (16–31 mi) off the coast of the mainland, and consists of many small islands and two large ones: Unguja (the main island, referred to informally as Zanzibar) and Pemba. The capital is Zanzibar City, located on the island of Unguja. Its historic centre is Stone Town, which is a World Heritage Site.',
@@ -83,6 +108,14 @@
     slug:"tarangire-national-park",
     title:"TARANGIRE NATIONAL PARK",
     image:"assets/images/tarangire.jpg",
+    video:"https://www.youtube-nocookie.com/embed/yMDsMC9W1gQ?version=3&amp;enablejsapi=1&amp;html5=1&amp;hd=1&amp;wmode=opaque&amp;showinfo=0&amp;rel=0&amp;origin=https://www.bookingstanzaniasafaris.com;&amp;controls=0&amp;playsinline=1&amp;start=1110&amp;end=1145",
+    header_images:[
+        {lg:"/assets/images/des-1-lg.jpg",sm:"/assets/images/des-1.jpg"},
+        {lg:"/assets/images/des-2-lg.jpg",sm:"/assets/images/des-2.jpg"},
+        {lg:"/assets/images/des-3-lg.jpg",sm:"/assets/images/des-3.jpg"},
+        {lg:"/assets/images/des-4-lg.jpg",sm:"/assets/images/des-4.jpg"},
+        {lg:"/assets/images/des-5-lg.jpg",sm:"/assets/images/des-5.jpg"},
+    ],
     p1:[
         "Tarangire National Park has some of the highest population density of elephants as compared to anywhere in Tanzania, and its sparse vegetation, strewn with baobab and acacia trees, makes it a beautiful and distinctive location to visit.",
         "Located just a few hours drive from the town of Arusha, Tarangire is a popular stop for people travelling through the northern safari circuit on their way to Ngorongoro and the Serengeti. The park extends into two game controlled areas and the wildlife is allowed to move freely throughout.",
@@ -103,6 +136,14 @@
     slug:"lake-manyara",
     title:"LAKE MANYARA",
     image:"assets/images/manyara.jpg",
+    video:"https://www.youtube-nocookie.com/embed/FJqk0eqWZiQ?version=3&amp;enablejsapi=1&amp;html5=1&amp;hd=1&amp;wmode=opaque&amp;showinfo=0&amp;rel=0&amp;origin=https://www.bookingstanzaniasafaris.com;&amp;controls=0&amp;playsinline=1&amp;start=1110&amp;end=1145",
+    header_images:[
+        {lg:"/assets/images/des-1-lg.jpg",sm:"/assets/images/des-1.jpg"},
+        {lg:"/assets/images/des-2-lg.jpg",sm:"/assets/images/des-2.jpg"},
+        {lg:"/assets/images/des-3-lg.jpg",sm:"/assets/images/des-3.jpg"},
+        {lg:"/assets/images/des-4-lg.jpg",sm:"/assets/images/des-4.jpg"},
+        {lg:"/assets/images/des-5-lg.jpg",sm:"/assets/images/des-5.jpg"},
+    ],
     p1:[
         "Located beneath the cliffs of the Manyara Escarpment, on the edge of the Rift Valley, Lake Manyara National Park offers varied ecosystems, incredible bird life, and breathtaking views.",
         "Located on the way to Ngorongoro Crater and the Serengeti, Lake Manyara National Park is worth a stop in its own right. Its ground water forests, bush plains, baobab strewn cliffs, and algae-streaked hot springs offer incredible ecological variety in a small area, rich in wildlife and incredible numbers of birds.",
