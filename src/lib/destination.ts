@@ -4,14 +4,15 @@
     id:1,
     slug:"ngorongoro-creater",
     title:"NGORONGORO CRATER",
+    sub_title:"Ngorongoro is without doubt one of Africa's finest safari destinations",
     image:"assets/images/ngorongoro.jpg",
     video:"https://www.youtube-nocookie.com/embed/45eddk-pMuY?version=3&amp;enablejsapi=1&amp;html5=1&amp;hd=1&amp;wmode=opaque&amp;showinfo=0&amp;rel=0&amp;origin=https://www.bookingstanzaniasafaris.com;&amp;controls=0&amp;playsinline=1&amp;start=1110&amp;end=1145",
     header_images:[
-        {lg:"/assets/images/des-1-lg.jpg",sm:"/assets/images/des-1.jpg"},
-        {lg:"/assets/images/des-2-lg.jpg",sm:"/assets/images/des-2.jpg"},
-        {lg:"/assets/images/des-3-lg.jpg",sm:"/assets/images/des-3.jpg"},
-        {lg:"/assets/images/des-4-lg.jpg",sm:"/assets/images/des-4.jpg"},
-        {lg:"/assets/images/des-5-lg.jpg",sm:"/assets/images/des-5.jpg"},
+        {lg:"/assets/images/ngorongoro-des-1.jpg",sm:"/assets/images/des-1-sm.jpg"},
+        {lg:"/assets/images/ngorongoro-des-2-lg.jpg",sm:"/assets/images/ngorongoro-des-2-sm.jpg"},
+        {lg:"/assets/images/ngorongoro-des-3-lg.jpg",sm:"/assets/images/ngorongoro-des-3-sm.jpg"},
+        {lg:"/assets/images/ngorongoro-des-4-lg.jpg",sm:"/assets/images/ngorongoro-des-4-sm.jpg"},
+        {lg:"/assets/images/ngorongoro-des-5-lg.jpeg",sm:"/assets/images/ngorongoro-des-5-sm.jpeg"},
     ],
     p1:[
         "The jewel in Ngorongoro's crown is a deep, volcanic crater, the largest un flooded and unbroken caldera in the world. About 20kms across, 600 meters deep and 300 sq kms in area, the Ngorongoro Crater is a breathtaking natural wonder.",
@@ -28,10 +29,11 @@
     id:2,
     slug:"serengeti-national-park",
     title:"SERENGETI NATIONAL PARK",
+    sub_title:"Serengeti is without doubt one of Africa's finest safari destinations",
     image:"assets/images/serengeti.jpg",
     video:"https://www.youtube-nocookie.com/embed/OH6tv9y-iaE?version=3&amp;enablejsapi=1&amp;html5=1&amp;hd=1&amp;wmode=opaque&amp;showinfo=0&amp;rel=0&amp;origin=https://www.bookingstanzaniasafaris.com;&amp;controls=0&amp;playsinline=1&amp;start=1110&amp;end=1145",
     header_images:[
-        {lg:"/assets/images/des-1-lg.jpg",sm:"/assets/images/des-1.jpg"},
+        {lg:"/assets/images/des-1-lg.jpg",sm:"/assets/images/des-1-sm.jpg"},
         {lg:"/assets/images/des-2-lg.jpg",sm:"/assets/images/des-2.jpg"},
         {lg:"/assets/images/des-3-lg.jpg",sm:"/assets/images/des-3.jpg"},
         {lg:"/assets/images/des-4-lg.jpg",sm:"/assets/images/des-4.jpg"},
@@ -55,6 +57,7 @@
     id:3,
     slug:"mount-kilimanjaro",
     title:"MOUNT KILIMANJARO",
+    sub_title:"Mount Kilimanjaro is without doubt one of Africa's finest safari destinations",
     image:"assets/images/kilimanjaro.jpg",
     video:"https://www.youtube-nocookie.com/embed/sKafQbM0J_8?version=3&amp;enablejsapi=1&amp;html5=1&amp;hd=1&amp;wmode=opaque&amp;showinfo=0&amp;rel=0&amp;origin=https://www.bookingstanzaniasafaris.com;&amp;controls=0&amp;playsinline=1&amp;start=1110&amp;end=1145",
     header_images:[
@@ -82,6 +85,7 @@
     id:4,
     slug:"zanzibar-island",
     title:"ZANZIBAR ISLAND",
+    sub_title:"Zanzibar is without doubt one of Africa's finest safari destinations",
     image:"assets/images/zanzibar.jpg",
     video:"https://www.youtube-nocookie.com/embed/YUqWjDRtH0U?version=3&enablejsapi=1&html5=1&hd=1&wmode=opaque&showinfo=0&rel=0&origin=https://www.bookingstanzaniasafaris.com;&controls=0&playsinline=1&start=0&end=149",
     header_images:[
@@ -107,6 +111,7 @@
     id:5,
     slug:"tarangire-national-park",
     title:"TARANGIRE NATIONAL PARK",
+    sub_title:"Tarangire is without doubt one of Africa's finest safari destinations",
     image:"assets/images/tarangire.jpg",
     video:"https://www.youtube-nocookie.com/embed/yMDsMC9W1gQ?version=3&amp;enablejsapi=1&amp;html5=1&amp;hd=1&amp;wmode=opaque&amp;showinfo=0&amp;rel=0&amp;origin=https://www.bookingstanzaniasafaris.com;&amp;controls=0&amp;playsinline=1&amp;start=1110&amp;end=1145",
     header_images:[
@@ -135,6 +140,7 @@
     id:6,
     slug:"lake-manyara",
     title:"LAKE MANYARA",
+    sub_title:"Lake manyara is without doubt one of Africa's finest safari destinations",
     image:"assets/images/manyara.jpg",
     video:"https://www.youtube-nocookie.com/embed/FJqk0eqWZiQ?version=3&amp;enablejsapi=1&amp;html5=1&amp;hd=1&amp;wmode=opaque&amp;showinfo=0&amp;rel=0&amp;origin=https://www.bookingstanzaniasafaris.com;&amp;controls=0&amp;playsinline=1&amp;start=1110&amp;end=1145",
     header_images:[

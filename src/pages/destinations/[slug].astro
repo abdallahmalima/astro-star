@@ -27,7 +27,7 @@ const destination=DESTINATIONS.find((des)=>(des.slug==slug))
                             {destination?.title}
                           </h1>
                           <p>
-                            Zanzibar is without doubt one of Africa's finest safari destinations
+                            {destination?.sub_title}
                           </p>
                         </div>
                       </div>
@@ -69,7 +69,7 @@ const destination=DESTINATIONS.find((des)=>(des.slug==slug))
                     <div class="point-slider-image-destination auto-position">
                       <ul>
                         {destination?.header_images.map((header_image,index)=>(
-                          <li class={`active active-${index+5}`}>
+                          <li class={`active active-${index+5}`} style={`background: url('${header_image.sm}') no-repeat center center; background-size: cover;`}>
                           <div class="hover-active">
                             &nbsp; 
                           </div>
