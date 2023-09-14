@@ -8,7 +8,7 @@
     image:"assets/images/ngorongoro.jpg",
     video:"https://www.youtube-nocookie.com/embed/45eddk-pMuY?version=3&amp;enablejsapi=1&amp;html5=1&amp;hd=1&amp;wmode=opaque&amp;showinfo=0&amp;rel=0&amp;origin=https://www.bookingstanzaniasafaris.com;&amp;controls=0&amp;playsinline=1&amp;start=1110&amp;end=1145",
     header_images:[
-        {lg:"/assets/images/ngorongoro-des-1.jpg",sm:"/assets/images/des-1-sm.jpg"},
+        {lg:"/assets/images/ngorongoro-des-1-lg.jpg",sm:"/assets/images/ngorongoro-des-1-sm.jpg"},
         {lg:"/assets/images/ngorongoro-des-2-lg.jpg",sm:"/assets/images/ngorongoro-des-2-sm.jpg"},
         {lg:"/assets/images/ngorongoro-des-3-lg.jpg",sm:"/assets/images/ngorongoro-des-3-sm.jpg"},
         {lg:"/assets/images/ngorongoro-des-4-lg.jpg",sm:"/assets/images/ngorongoro-des-4-sm.jpg"},
@@ -89,11 +89,11 @@
     image:"assets/images/zanzibar.jpg",
     video:"https://www.youtube-nocookie.com/embed/YUqWjDRtH0U?version=3&enablejsapi=1&html5=1&hd=1&wmode=opaque&showinfo=0&rel=0&origin=https://www.bookingstanzaniasafaris.com;&controls=0&playsinline=1&start=0&end=149",
     header_images:[
-        {lg:"/assets/images/des-1-lg.jpg",sm:"/assets/images/des-1.jpg"},
-        {lg:"/assets/images/des-2-lg.jpg",sm:"/assets/images/des-2.jpg"},
-        {lg:"/assets/images/des-3-lg.jpg",sm:"/assets/images/des-3.jpg"},
-        {lg:"/assets/images/des-4-lg.jpg",sm:"/assets/images/des-4.jpg"},
-        {lg:"/assets/images/des-5-lg.jpg",sm:"/assets/images/des-5.jpg"},
+        {lg:"/assets/images/zanzibar-des-1-lg.jpg",sm:"/assets/images/zanzibar-des-1-sm.jpg"},
+        {lg:"/assets/images/zanzibar-des-2-lg.jpg",sm:"/assets/images/zanzibar-des-2-sm.jpg"},
+        {lg:"/assets/images/zanzibar-des-3-lg.jpg",sm:"/assets/images/zanzibar-des-3-sm.jpg"},
+        {lg:"/assets/images/zanzibar-des-4-lg.jpg",sm:"/assets/images/zanzibar-des-4-sm.jpg"},
+        {lg:"/assets/images/zanzibar-des-5-lg.jpg",sm:"/assets/images/zanzibar-des-5-sm.jpg"},
     ],
     p1:[
         'Known as the Spice Island, the beautiful island of Zanzibar on Africa’s east coast is bursting with culture and history, seemingly at odds with its idyllic geography of white-sand beaches with palms swaying lazily in the sea breeze. Together this makes Zanzibar a fabulous place to explore as well as a dream to relax and unwind.',
@@ -144,11 +144,11 @@
     image:"assets/images/manyara.jpg",
     video:"https://www.youtube-nocookie.com/embed/FJqk0eqWZiQ?version=3&amp;enablejsapi=1&amp;html5=1&amp;hd=1&amp;wmode=opaque&amp;showinfo=0&amp;rel=0&amp;origin=https://www.bookingstanzaniasafaris.com;&amp;controls=0&amp;playsinline=1&amp;start=1110&amp;end=1145",
     header_images:[
-        {lg:"/assets/images/des-1-lg.jpg",sm:"/assets/images/des-1.jpg"},
-        {lg:"/assets/images/des-2-lg.jpg",sm:"/assets/images/des-2.jpg"},
-        {lg:"/assets/images/des-3-lg.jpg",sm:"/assets/images/des-3.jpg"},
-        {lg:"/assets/images/des-4-lg.jpg",sm:"/assets/images/des-4.jpg"},
-        {lg:"/assets/images/des-5-lg.jpg",sm:"/assets/images/des-5.jpg"},
+        {lg:"/assets/images/manyara-des-1-lg.jpg",sm:"/assets/images/manyara-des-1-sm.jpg"},
+        {lg:"/assets/images/manyara-des-2-lg.jpg",sm:"/assets/images/manyara-des-2-sm.jpg"},
+        {lg:"/assets/images/manyara-des-3-lg.jpg",sm:"/assets/images/manyara-des-3-sm.jpg"},
+        {lg:"/assets/images/manyara-des-4-lg.jpg",sm:"/assets/images/manyara-des-4-sm.jpg"},
+        {lg:"/assets/images/manyara-des-5-lg.jpg",sm:"/assets/images/manyara-des-5-sm.jpg"},
     ],
     p1:[
         "Located beneath the cliffs of the Manyara Escarpment, on the edge of the Rift Valley, Lake Manyara National Park offers varied ecosystems, incredible bird life, and breathtaking views.",
