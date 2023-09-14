@@ -452,23 +452,23 @@
   cursor: pointer;
 }
 .point-slider-image ul li:nth-child(1) {
-  background: url('../../images/point5.jpg') no-repeat center center;
+  background: url('../../images/home-des-1-sm.jpg') no-repeat center center;
   background-size: cover;
 }
 .point-slider-image ul li:nth-child(2) {
-  background: url('../../images/point4.jpg') no-repeat center center;
+  background: url('../../images/home-des-3-sm.jpg') no-repeat center center;
   background-size: cover;
 }
 .point-slider-image ul li:nth-child(3) {
-  background: url('../../images/point3.jpg') no-repeat center center;
+  background: url('../../images/home-des-3-sm.jpg') no-repeat center center;
   background-size: cover;
 }
 .point-slider-image ul li:nth-child(4) {
-  background: url('../../images/point2.jpg') no-repeat center center;
+  background: url('../../images/home-des-4-sm.jpg') no-repeat center center;
   background-size: cover;
 }
 .point-slider-image ul li:nth-child(5) {
-  background: url('../../images/point1.jpg') no-repeat center center;
+  background: url('../../images/home-des-5-sm.jpg') no-repeat center center;
   background-size: cover;
 }
 .point-slider-image ul li:last-child {
@@ -839,23 +839,23 @@ p {
   background-image: url('../../images/layer3.png');
 }
 .layer-slide-1 {
-  background: url('../../images/slide-1.jpg') center center;
+  background: url('../../images/home-des-1-lg.jpg') center center;
   background-size: cover;
 }
 .layer-slide-2 {
-  background: url('../../images/slide-2.jpg') center center;
+  background: url('../../images/home-des-2-lg.jpg') center center;
   background-size: cover;
 }
 .layer-slide-3 {
-  background: url('../../images/slide-3.jpg') center center;
+  background: url('../../images/home-des-3-lg.jpg') center center;
   background-size: cover;
 }
 .layer-slide-4 {
-  background: url('../../images/slide-4.jpg') center center;
+  background: url('../../images/home-des-4-lg.jpg') center center;
   background-size: cover;
 }
 .layer-slide-5 {
-  background: url('../../images/slide-5.jpg') center center;
+  background: url('../../images/home-des-5-lg.jpg') center center;
   background-size: cover;
 }
 .tutorial-link {
